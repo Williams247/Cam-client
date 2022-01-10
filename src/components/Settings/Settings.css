@@ -1,0 +1,110 @@
+#settings-modal {
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 5;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  height: 100%;
+}
+
+#settings-menu {
+  background: #dddddd;
+  width: 300px;
+  height: 100vh;
+}
+
+#settings-close {
+  float: right;
+  margin-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+#setting-menu-heading {
+  font-size: 20px;
+  text-align: center;
+  color: #d1193e;
+  padding-top: 50px;
+}
+
+#settings-menu-list {
+  margin-top: 30px;
+  padding-left: 65px;
+  padding-right: 65px;
+  font-weight: bold;
+}
+
+.general-settings {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  transition: 100ms;
+  border-bottom: 1px solid gray;
+}
+
+.general-settings:hover {
+  background: gray;
+  color: white;
+}
+
+.general-settings-active {
+  background: gray;
+  color: white;
+}
+
+.general-settings-active:hover {
+  background: #252525;
+  color: white;
+}
+
+.each-menu-list {
+  padding-left: 10px;
+}
+
+.sub-menu-items {
+  padding-top: 7.5px;
+  padding-bottom: 7.5px;
+  padding-left: 10px;
+}
+
+.sub-menu-items:hover {
+  background: #464545;
+  color: white;
+}
+
+.sub-menu-items-active {
+  background: #222121;
+  color: white;
+}
+
+.blur {
+  filter: blur(5px);
+}
+
+.contrast {
+  filter: contrast(200%);
+}
+
+.grayscale {
+  filter: grayscale(50%);
+}
+
+.hue-rotate {
+  filter: hue-rotate(90deg);
+}
+
+.invert {
+  filter: invert(75%);
+}
+
+.opacity {
+  filter: opacity(25%);
+}
+
+.saturate {
+  filter: saturate(30%);
+}
+
+.sepia {
+  filter: sepia(60%);
+}

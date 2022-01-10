@@ -1,0 +1,14 @@
+[
+    {
+        "label": "None",
+        "value": ""
+    },
+    {
+        "label": "5 Seconds",
+        "value": 1000
+    },
+    {
+        "label": "10 Seconds",
+        "value": 2000
+    }
+]

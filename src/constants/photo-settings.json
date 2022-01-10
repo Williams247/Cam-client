@@ -1,0 +1,47 @@
+[
+    {
+        "label":"None",
+        "value":"None",
+        "canvasValue":"none"
+    },
+    {
+        "label":"Blur",
+        "value":"blur",
+        "canvasValue":"blur(5px)"
+    },
+    {
+        "label":"Contrast",
+        "value":"contrast",
+        "canvasValue":"contrast(200%)"
+    },
+    {
+        "label":"GrayScale",
+        "value":"grayscale",
+        "canvasValue":"grayscale(50%)"
+    },
+    {
+        "label":"Hue Rotate",
+        "value":"hue-rotate",
+        "canvasValue":"hue-rotate(90deg)"
+    },
+    {
+        "label":"Invert",
+        "value":"invert",
+        "canvasValue":"invert(75%)"
+    },
+    {
+        "label":"Opacity",
+        "value":"opacity",
+        "canvasValue":"opacity(25%)"
+    },
+    {
+        "label":"Saturate",
+        "value":"saturate",
+        "canvasValue":"saturate(30%)"
+    },
+    {
+        "label":"Sepia",
+        "value":"sepia",
+        "canvasValue":"sepia(60%)"
+    }
+]

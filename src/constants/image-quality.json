@@ -1,0 +1,14 @@
+[
+    {
+        "label": "Full Quality",
+        "value": 1.0
+    },
+    {
+        "label": "Medium Quality",
+        "value": 0.5
+    },
+    {
+        "label": "Low Quality",
+        "value": 0.1
+    }
+]
