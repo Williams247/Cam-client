@@ -20,6 +20,10 @@ html, body {
   flex-direction: column;
 }
 
+.justify-content-between {
+  justify-content: space-between;
+}
+
 @media (min-width: 800px) {
   .flex-direction-row-column {
     flex-direction: row;
@@ -32,4 +36,9 @@ html, body {
 
 .d-none {
   display: none !important;
+}
+
+.container {
+  margin: auto;
+  width: 960px;
 }

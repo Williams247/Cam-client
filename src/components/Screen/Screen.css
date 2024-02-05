@@ -50,17 +50,19 @@ video {
   height: 100%;
   position: fixed;
   bottom: 0;
+  right: 0;
+  left: 0;
   overflow: auto;
 }
 
 #modal-box {
-  width: 60%;
+  width: 40rem;
   margin-bottom: 40px;
   padding-bottom: 40px;
 }
 
 #modal-bar {
-  width: 94.69%;
+  width: 100%;
   background: red;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -68,8 +70,20 @@ video {
   padding-right: 15px;
 }
 
+#modal-box-close-container {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#modal-box-close-container button {
+  border: none;
+  background: transparent;
+  padding-right: 10px;
+}
+
 #modal-bar-caption {
-  width: 100%;
   font-size: 20px;
   color: white;
   font-weight: bold;
@@ -83,7 +97,7 @@ video {
 
 #canvas {
   object-fit: cover;
-  width: 100%;
+  width: 100% !important;
 }
 
 #modal-control-container {

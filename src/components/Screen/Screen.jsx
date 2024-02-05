@@ -60,14 +60,16 @@ const Screen = () => {
     handleMountCamera();
   });
   return (
-    <div>
+    <div className={"container"}>
       <div id="screen-container" className="d-flex justify-content-center">
         <div id="screen">
           <video
             id="video"
             autoplay
             className={
-              imageType.value === "" || imageType.value === "None" ? "" : imageType.value
+              imageType.value === "" || imageType.value === "None"
+                ? ""
+                : imageType.value
             }
           ></video>
         </div>
@@ -90,30 +92,8 @@ const Screen = () => {
       </div>
       <div id="modal" className="d-flex justify-content-center">
         <div id="modal-box">
-          <div id="modal-bar" className="d-flex">
-            <div id="modal-bar-caption">Your photo</div>
-            <div
-              id="close"
-              className="cursor-pointer"
-              title="close"
-              onClick={handleCloseModal}
-            >
-              <FontAwesomeIcon icon={faTimes} />
-            </div>
-          </div>
-          <canvas id="canvas" width="650" height="480"></canvas>
-          <div
-            id="modal-control-container"
-            className="d-flex justify-content-center"
-          >
-            <div className="d-flex">
-              <div
-                className="control-space cursor-pointer"
-                onClick={handleCloseModal}
-                title="Cancel"
-              >
-                <FontAwesomeIcon icon={faTimes} />
-              </div>
+          <div id="modal-box-close-container">
+            <button>
               <div
                 className="control-space cursor-pointer"
                 onClick={handleDownloadImage}
@@ -121,8 +101,22 @@ const Screen = () => {
               >
                 <FontAwesomeIcon icon={faDownload} />
               </div>
-            </div>
+            </button>
+            <button
+              id="close"
+              className="cursor-pointer"
+              title="close"
+              onClick={handleCloseModal}
+            >
+              <FontAwesomeIcon icon={faTimes} />
+            </button>
           </div>
+
+          <canvas id="canvas" width="650" height="480"></canvas>
+          <div
+            id="modal-control-container"
+            className="d-flex justify-content-center"
+          ></div>
         </div>
       </div>
       <Settings
